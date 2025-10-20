@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>보리컨테이너</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.12.3.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/boricontaier.png" alt="보리컨테이너로고" />
+        </a>
+      </div>
+      <ul class="menu">
+        <li class="item">
+          <button class="basic" onclick="location.href='basic.html'">
+            기본 컨테이너
+          </button>
+        </li>
+        <li class="item">
+          <button class="custom" onclick="location.href='custom.html'">
+            주문형 컨테이너
+          </button>
+        </li>
+        <li class="item">
+          <button class="house" onclick="location.href='house.html'">
+            이동식 주택(농막)
+          </button>
+        </li>
+        <li class="item">
+          <button class="toilet" onclick="location.href='toilet.html'">
+            이동식 화장실
+          </button>
+        </li>
+        <li class="item">
+          <button class="used" onclick="location.href='used.html'">
+            중고 컨테이너
+          </button>
+        </li>
+      </ul>
+      <!-- 햄버거 버튼 -->
+      <button class="menu-toggle" aria-label="메뉴 열기/닫기">☰</button>
+      <nav class="side-menu">
+        <div class="side-header">
+          <img src="assets/Bori_Logo.png" alt="보리컨테이너로고" />
+          <p>고객님의 니즈에 맞는 컨테이너<br />보리컨테이너</p>
+          <button class="close-btn" aria-label="닫기">×</button>
+        </div>
+
+        <ul class="side-links">
+          <li><a href="basic.html">기본형 컨테이너</a></li>
+          <li><a href="custom.html">주문형 컨테이너</a></li>
+          <li><a href="house.html">이동식 주택(농막)</a></li>
+          <li><a href="toilet.html">이동식 화장실</a></li>
+          <li><a href="used.html">중고 컨테이너</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="slider">
+      <div class="slides">
+        <img src="images/slider/기본형컨테이너.jpg" alt="슬라이드1" />
+        <img src="images/slider/이동식 농막.jpg" alt="슬라이드2" />
+        <img src="images/slider/이동식 화장실.jpg" alt="슬라이드3" />
+        <img src="images/slider/주문형 컨테이너.jpg" alt="슬라이드4" />
+        <img src="images/slider/중고컨테이너.jpg" alt="슬라이드5" />
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </section>
+
+    <section class="container-preview">
+      <div class="cotainer-group">
+        <h2>기본형 컨테이너</h2>
+        <p>컨테이너의 기본 방충망 및 십자등을 사용하여 제작한 제품입니다.</p>
+        <div class="container-images">
+          <img src="images/slider/기본형컨테이너.jpg" alt="기본형 컨테이너1" />
+          <img src="images/slider/기본형컨테이너.jpg" alt="기본형 컨테이너2" />
+          <img src="images/slider/기본형컨테이너.jpg" alt="기본형 컨테이너3" />
+          <img src="images/slider/기본형컨테이너.jpg" alt="기본형 컨테이너4" />
+        </div>
+        <a href="basic.html" class="more-btn">More view</a>
+      </div>
+
+      <div class="cotainer-group">
+        <h2>주문형 컨테이너</h2>
+        <p>고객님이 원하는 크기 및 디자인을 통하여 제작한 제품입니다.</p>
+        <div class="container-images">
+          <img src="images/order/order1.jpg" alt="주문형 컨테이너1" />
+          <img src="images/order/order2.jpg" alt="주문형 컨테이너2" />
+          <img src="images/order/order3.jpg" alt="주문형 컨테이너3" />
+          <img src="images/order/order4.jpg" alt="주문형 컨테이너4" />
+        </div>
+        <a href="custom.html" class="more-btn">More view</a>
+      </div>
+
+      <div class="cotainer-group">
+        <h2>이동식 주택(농막)</h2>
+        <p>
+          5.5평 신고용 농막(싱크대, 화장실)을 원하는 디자인을 통해 제작한
+          제품입니다.
+        </p>
+        <div class="container-images">
+          <img src="images/house/house1.jpg" alt="이동식 농막1" />
+          <img src="images/house/house2.jpg" alt="이동식 농막2" />
+          <img src="images/house/house3.jpg" alt="이동식 농막3" />
+          <img src="images/house/house4.jpg" alt="이동식 농막4" />
+        </div>
+        <a href="house.html" class="more-btn">More view</a>
+      </div>
+
+      <div class="cotainer-group">
+        <h2>이동식 화장실</h2>
+        <p>포세식, 이동식화장실, 컨테이너형 화장실 제품입니다.</p>
+        <div class="container-images">
+          <img src="images/toilet/toliet1.jpg" alt="이동식 화장실1" />
+          <img src="images/toilet/toliet2.jpg" alt="이동식 화장실2" />
+          <img src="images/toilet/toliet3.jpg" alt="이동식 화장실3" />
+          <img src="images/toilet/toliet4.jpg" alt="이동식 화장실4" />
+        </div>
+        <a href="toilet.html" class="more-btn">More view</a>
+      </div>
+
+      <div class="cotainer-group">
+        <h2>중고 컨테이너</h2>
+        <p>중고제품으로 간단 수리 후 판매하는 제품입니다.</p>
+        <div class="container-images">
+          <img src="images/used/used1.jpg" alt="중고 컨테이너1" />
+          <img src="images/used/used2.jpg" alt="중고 컨테이너2" />
+          <img src="images/used/used3.jpg" alt="중고 컨테이너3" />
+          <img src="images/used/used4.jpg" alt="중고 컨테이너4" />
+        </div>
+        <a href="used.html" class="more-btn">More view</a>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <p>회사명 : 보리컨테이너 | 대표자 : 전주호 | 사업자번호 : 543-58-00978</p>
+    <p>대표번호 : 010-7569-5539 | 이메일 jjh920123@naver.com</p>
+    <p>Copyright 2025. 보리컨테이너 All rights reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</html>
