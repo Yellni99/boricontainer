@@ -247,7 +247,7 @@ button.next {
 }
 
 .container-images-in img {
-  width: 400px;
+  width: 350px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
@@ -319,7 +319,7 @@ button.next {
   }
 
   .slider {
-    max-width: 380px;
+    max-width: 350px;
     aspect-ratio: 3 / 2;
   }
 
