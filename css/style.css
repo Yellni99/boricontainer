@@ -259,6 +259,8 @@ button.next {
   transform: scale(1.03);
 }  
 
+/* 태블릿 (1024px 이하) */
+
 @media (max-width: 1024px) {
   .menu .item button {
     font-size: 18px;
@@ -317,7 +319,7 @@ button.next {
   }
 
   .slider {
-    max-width: 450px;
+    max-width: 380px;
     aspect-ratio: 3 / 2;
   }
 
